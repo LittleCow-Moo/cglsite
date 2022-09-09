@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+font-family: "GenSenRounded-R","源泉圓體 R",sans-serif;
+text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.onehundredpercentuwu {
+  top: 0px;
+  width: 100%; 
+  height: 60%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 40px;  
+  backdrop-filter: blur(4px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
-
-.App-link {
-  color: #61dafb;
+div#title {
+  font-family: 'GenSenRounded-B','源泉圓體' !important;
+  position: relative; 
+  top: 0px; 
+  left: 0px; 
+  width: 100%; 
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-image: url("header.jpg");
+  backdrop-filter: blur(4px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: black;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div#root {
+  font-size: 25px
+}
+div#cre {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(./creative.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+div#surv {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(./survival.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+div#ancient {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(./ancient.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
