@@ -1,9 +1,10 @@
 * {
-font-family: "GenSenRounded-R","源泉圓體 R",sans-serif;
-text-align: center;
+  font-family: "GenSenRounded-R","源泉圓體 R",sans-serif;
+  text-align: center;
+  text-decoration: none;
 }
 body {
-margin: 0;
+  margin: 0;
 }
 .onehundredpercentuwu {
   top: 0px;
@@ -72,4 +73,17 @@ div#ancient {
   background-repeat:no-repeat;
   background-position: center center;
   background-size: cover;
+}
+div#void {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  );
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+a {
+  color: #ddd;
 }
