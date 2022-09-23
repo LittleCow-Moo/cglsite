@@ -66,25 +66,6 @@ function App() {
             </tbody>
           </table>
         </div>
-        <div className="onehundredpercentuwu" id="void">
-          <table style={{width:'100%',height:'100%',fontSize:'30px',whiteSpace:'pre-wrap',color:'white'}}>
-            <tbody>
-              <tr>
-                <td>
-                  [即將到來]<br/>
-                  突破限制的<br/>
-                  1024格高虛空地圖，<br/>
-                  讓你盡情地創造！<br/><br/>
-                  感謝<a href="https://youtube.com/c/Koi戀">Koi.戀</a>的<a href="https://youtu.be/rPxMghe14SA">高度擴充Addon</a>
-                </td>
-                <td>
-                  <img src={icon} width="30%" alt="只是佔位用AwA"/><br/>
-                  虛空創造伺服器
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
       </div>
     </>
   );
