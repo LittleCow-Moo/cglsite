@@ -59,8 +59,10 @@ function App() {
                 <td>
                   在漆黑的遠古之城生存，<br/>
                   小心不要觸發尖嘯器，<br/>
-                  不然就會召喚出Warden！<br/><br/>
+                  不然就會召喚出Warden！
+                  <sub><br/><br/>
                   感謝<a href="https://youtube.com/c/Onityan">鬼鬼</a>的<a href="https://youtu.be/ZvKw9OVza88">遠古之城生存系列</a>提供靈感
+                  </sub>
                 </td>
               </tr>
             </tbody>
