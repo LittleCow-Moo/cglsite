@@ -77,3 +77,13 @@ div#ancient {
 a {
   color: #ddd;
 }
+div#footer {
+  font-size: 30px;
+  background-color: #333;
+  color: white;
+  width: auto;
+  height: auto;
+}
+img.valmiddle {
+  vertical-align: middle;
+}

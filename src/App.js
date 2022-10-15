@@ -69,6 +69,12 @@ function App() {
           </table>
         </div>
       </div>
+      <div id="footer" className="onehundredpercentuwu">
+        <center>
+          <img src={icon}  className="valmiddle" width="50px" alt="牛牛" /> 牛牛的草原<br/><br/>
+          本網站使用<a href="https://ipfs.tech/">IPFS</a>，為Web3盡一份心力
+        </center>
+      </div>
     </>
   );
 }
