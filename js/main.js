@@ -45,9 +45,9 @@ $(document).ready(() => {
 })
 
 const updatePlayercount = (ip, port) => {
-  $.get(`https://mcapi.us/server/status?ip=${ip}&port=${port}`, (result) => {
-    if (result.hasOwnProperty("players")) {
-      $(".sip").html(result.players.now)
+  $.get(`https://api.bybilly.uk/api/players/${ip}/${port}`, (result) => {
+    if (result.hasOwnProperty("online")) {
+      $(".sip").html(result.online)
     } else {
       $(".playercount").html("伺服器不在線上!")
     }
