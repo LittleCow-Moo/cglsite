@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+@font-face { 
+  font-family: "GenSen"; 
+  src: url(../GenSenRounded-M.ttc); 
+}
+
 body {
   background: linear-gradient(rgba(20, 26, 35, 0.55), rgba(20, 26, 35, 0.55)),
     url("../img/minecraft.png") no-repeat center center fixed;
   background-size: cover;
-  font-family: "Open Sans", Helvetica;
+  font-family: "GenSen", "Open Sans", Helvetica;
   margin: 0;
   position: relative;
 }
